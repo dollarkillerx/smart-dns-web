@@ -37,11 +37,13 @@ export default {
   methods: {
     async login() {
       // this.loading = true;
+      this.$Spin.show();
       let res = await this.$api.user.login(this.form)
       if (res) {
         this.$router.push('/');
       }
       // this.loading = false;
+      this.$Spin.hide();
     }
   }
 }
