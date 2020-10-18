@@ -2,7 +2,7 @@
   <div class="login">
     <div class="login-con">
       <Card style="width: 360px">
-        <p slot="title">欢迎登录</p>
+        <p slot="title">Smart DNS Admin</p>
         <Form :model="form">
           <FormItem prop="email">
             <Input type="text" v-model="form.email" placeholder="please input email">
@@ -53,7 +53,7 @@ export default {
 .login {
   width: 100%;
   height: 100vh;
-  background-image: url("../../../public/bg.jpg");
+  background-image: url("../../../public/c1.jpg");
   background-size: cover;
   background-position: 50%;
   position: relative;
